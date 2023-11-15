@@ -1,0 +1,4 @@
+description: This is a test schema
+type: string
+format: test
+example: This is a test schema

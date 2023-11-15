@@ -1,0 +1,17 @@
+# See https://redoc.ly/docs/cli/configuration/ for more information.
+features.openapi:
+  htmlTemplate: ./index.html
+  theme:
+    colors:
+      primary:
+        main: "#32329f"
+  generateCodeSamples:
+    languages:
+      - lang: curl
+      - lang: Node.js
+      - lang: Python
+apis:
+  # Update the apiName with your actual API name, and the version with your actual API version.
+  apiName@version:
+    # Update the path to your OpenAPI root file
+    root: ./openapi/openapi.yaml
